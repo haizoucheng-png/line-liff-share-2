@@ -1,0 +1,183 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://example.com"
+    },
+    "url": "https://i.ibb.co/DHC3nj2P/3.png"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "您已被幸運兔兔造訪",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#333333",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "+1",
+                "color": "#E53935",
+                "size": "xs",
+                "weight": "bold",
+                "align": "center"
+              }
+            ],
+            "borderWidth": "1px",
+            "borderColor": "#E53935",
+            "cornerRadius": "10px",
+            "paddingAll": "2px",
+            "paddingStart": "6px",
+            "paddingEnd": "6px",
+            "flex": 0,
+            "offsetTop": "2px"
+          },
+          {
+            "type": "text",
+            "text": "10/32 25:00結單 ★嗚啦~兔兔祝您天天開心",
+            "color": "#D81B60",
+            "weight": "bold",
+            "size": "md",
+            "wrap": true,
+            "flex": 1,
+            "margin": "md"
+          }
+        ],
+        "margin": "md",
+        "alignItems": "center"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "品牌：",
+                "color": "#666666",
+                "size": "md",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "烏薩奇",
+                "color": "#444444",
+                "size": "md",
+                "flex": 1
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "市價：",
+                "color": "#666666",
+                "size": "md",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "9999元",
+                "color": "#888888",
+                "size": "md",
+                "decoration": "line-through",
+                "flex": 1
+              }
+            ],
+            "margin": "xs"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "心動價",
+                "color": "#B71C1C",
+                "size": "lg",
+                "weight": "bold",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "1元",
+                "color": "#B71C1C",
+                "size": "xl",
+                "weight": "bold",
+                "flex": 1
+              }
+            ],
+            "margin": "xs",
+            "alignItems": "center"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "規格：",
+                "color": "#666666",
+                "size": "md",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "A開門 B關門 C拆門",
+                "color": "#555555",
+                "size": "md",
+                "flex": 1,
+                "maxLines": 1
+              }
+            ],
+            "margin": "xs"
+          }
+        ],
+        "margin": "lg"
+      }
+    ],
+    "paddingAll": "20px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "看看商品 👆",
+          "uri": "https://haizoucheng.bvshop.tw/item/71016ace5eaea6fc9"
+        },
+        "style": "secondary",
+        "color": "#F2F2F2",
+        "height": "sm"
+      }
+    ],
+    "paddingAll": "15px",
+    "paddingTop": "0px"
+  }
+}
